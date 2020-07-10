@@ -1,0 +1,5 @@
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
+
+POST    /register-user              controllers.ResponseController.addUser
+GET     /get-user                   controllers.ResponseController.TODO
+POST    /delete-user                controllers.ResponseController.TODO
